@@ -18,11 +18,26 @@ app.get("/api/spotify", async (_req, res) => {
       return res.send(renderSVG(null));
     }
 
+    // Fetch album art and convert to base64 for GitHub compatibility
+    let albumArtBase64 = null;
+    const albumArtUrl = data.item.album.images[0]?.url;
+    if (albumArtUrl) {
+      try {
+        const imgResponse = await fetch(albumArtUrl);
+        const arrayBuffer = await imgResponse.arrayBuffer();
+        const base64 = Buffer.from(arrayBuffer).toString("base64");
+        const contentType = imgResponse.headers.get("content-type") || "image/jpeg";
+        albumArtBase64 = `data:${contentType};base64,${base64}`;
+      } catch {
+        // If image fetch fails, continue without it
+      }
+    }
+
     const track = {
       title: data.item.name,
       artist: data.item.artists.map((a) => a.name).join(", "),
       album: data.item.album.name,
-      albumArt: data.item.album.images[0]?.url,
+      albumArt: albumArtBase64,
       songUrl: data.item.external_urls.spotify,
       isPlaying: data.is_playing,
     };
