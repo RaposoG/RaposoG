@@ -1,8 +1,8 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:58a6ff&height=250&section=header&text=&animation=fadeIn" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:6e40c9,100:58a6ff&height=180&section=header&text=&animation=fadeIn" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%3E+Initializing...+Gabriel+Raposo;%F0%9F%8E%AE+Full+Stack+Dev+%7C+TypeScript+Wizard+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F;%F0%9F%8F%B0+Founder+%40+MLZ+%7C+Melhorzin+Community)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=150&lines=%3E+Initializing...+Gabriel+Raposo;%F0%9F%8E%AE+Full+Stack+Dev+%7C+TypeScript+Wizard+%F0%9F%A7%99%E2%80%8D%E2%99%82%EF%B8%8F;%F0%9F%8F%B0+Founder+%40+MLZ+%7C+Melhorzin+Community)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=RaposoG&label=%F0%9F%95%B9%EF%B8%8F+Players+Online&color=6e40c9&style=for-the-badge" alt="Profile views" />
 
