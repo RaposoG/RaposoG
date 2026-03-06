@@ -189,8 +189,7 @@ const gabrielRaposo = {
 
 <br />
 
-<!-- Substitua SEU_DOMINIO pelo domínio/IP do seu servidor (ex: spotify.melhorzin.com) -->
-[![Spotify](https://SEU_DOMINIO/api/spotify)](https://open.spotify.com/user/22v4ehvqkto5wrftjyldjqeli)
+[![Spotify](https://spotify.melhorzin.com/api/spotify)](https://open.spotify.com/user/22v4ehvqkto5wrftjyldjqeli)
 
 > *🎧 Currently vibing to some epic coding beats...*
 
