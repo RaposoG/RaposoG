@@ -1,0 +1,13 @@
+{
+  "name": "spotify-now-playing",
+  "version": "1.0.0",
+  "description": "Self-hosted Spotify Now Playing widget for GitHub README",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "selfsigned": "^5.5.0"
+  }
+}

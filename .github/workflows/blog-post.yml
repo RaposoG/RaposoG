@@ -1,0 +1,29 @@
+name: Latest Blog Posts
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # Runs every 6 hours
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-readme-with-blog:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in blog posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          # Uncomment and configure ONE of these feed sources:
+          # feed_list: "https://dev.to/feed/raposog"
+          # feed_list: "https://medium.com/feed/@raposog"
+          # feed_list: "https://melhorzin.com/feed"
+          feed_list: ""
+          max_post_count: 5
+          template: "$newline- 🔮 [$title]($url) $newline"
+          comment_tag_name: "BLOG-POST-LIST"
