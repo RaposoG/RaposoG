@@ -109,15 +109,13 @@ const gabrielRaposo = {
 
 <div align="center">
 
-## 🐍 `> CONTRIBUTION SNAKE` 🐍
+## �️ `> SYSTEM MONITOR` 🖥️
 
 <br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RaposoG/RaposoG/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RaposoG/RaposoG/output/github-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/RaposoG/RaposoG/output/github-snake-dark.svg" />
-</picture>
+[![GitHub Terminal](https://terminal.melhorzin.com/api/terminal)](https://github.com/RaposoG)
+
+> *⌨️ Real-time GitHub stats rendered as an animated retro terminal...*
 
 </div>
 

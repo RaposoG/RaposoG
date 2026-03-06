@@ -1,0 +1,16 @@
+services:
+  terminal-widget:
+    build: .
+    container_name: github-terminal-widget
+    restart: unless-stopped
+    ports:
+      - "3006:3000"
+    environment:
+      - GITHUB_USERNAME=${GITHUB_USERNAME:-RaposoG}
+      - GITHUB_TOKEN=${GITHUB_TOKEN}
+      - PORT=3000
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3

@@ -1,0 +1,12 @@
+{
+  "name": "github-terminal-widget",
+  "version": "1.0.0",
+  "description": "Animated retro terminal widget with real GitHub stats for README",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
