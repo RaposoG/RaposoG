@@ -20,7 +20,7 @@
 const gabrielRaposo = {
   name:         "Gabriel Raposo",
   class:        "Full Stack Developer",
-  level:        "8+ years of XP",
+  level:        "9+ years of XP",
   mainWeapon:   "TypeScript ⚔️",
   guild:        "MLZ — Melhorzin 🏰",
   currentQuest: "Building amazing things & empowering devs",
